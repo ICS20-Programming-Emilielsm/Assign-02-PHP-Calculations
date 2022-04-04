@@ -3,8 +3,8 @@
 	$radius = $_POST['radius'];
 
 	// calculate the area
-	$area = pi() * $radius**2
-  $circumfrence = 2 * pi() * $radius
+	$area = format_number(pi() * $radius**2 , 2);
+  $circumfrence = 2 * pi() * $radius ;
 ?>
 
 <h3>Results:</h3>

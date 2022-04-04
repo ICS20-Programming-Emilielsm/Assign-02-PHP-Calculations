@@ -22,8 +22,8 @@
     <?php 
 			echo "<h1>Area and Circumfrence of a circle in PHP</h1>";
 			echo "<h3>This program will calculate Area and Circumfrence of a circle</h3>";
-      echo <img src="./images/mathphp.webp" alt="math"/>
 		?>
+    <img src= <?php echo "./images/math2.jpg" ?>
 		<!-- form to get the base and height from the user -->
     <form action="./results.php" method="post" target="results">
       <label for=lblRadius">Radius (cm):</label>
