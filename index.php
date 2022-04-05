@@ -32,6 +32,11 @@
       <input type="submit" value="Calculate Circumfrence">
 		</form>
 
+    <?php ?>
+     <!-- Default Slider -->
+     <input class="mdl-slider mdl-js-slider" type="range"
+  min="0" max="100" value="0" tabindex="0">
+    
 			<!-- iframe for the results to show on the web page. -->
 			<iframe id="results" name="results">			
 				Area of the circle is" + $area + cm<sup>2</sup>
