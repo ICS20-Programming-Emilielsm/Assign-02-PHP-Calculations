@@ -5,12 +5,12 @@
 	// calculate the area and circumfrence
 	$area = pi() * $radius**2;
   $circumfrence = 2 * pi() * $radius ;
+  $area = number_format($area, 2);
+  $circumfrence = number_format($circumfrence, 2);
 ?>
+ 
 
-<?php 
- $area = number_format($area, 2);
- $circumfrence = number_format($circumfrence, 2);
-?>
+
 
 <?php // the results that are going to be displayed?>
 <h3>Results:</h3>
