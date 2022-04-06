@@ -8,9 +8,6 @@
   $area = number_format($area, 2);
   $circumfrence = number_format($circumfrence, 2);
 ?>
- 
-
-
 
 <?php // the results that are going to be displayed?>
 <h3>Results:</h3>

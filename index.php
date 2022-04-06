@@ -24,7 +24,8 @@
 			echo "<h3>This program will calculate Area and Circumfrence of a circle</h3>";
 		?>
     <img src= <?php echo "./images/math2.jpg" ?>
-		<!-- form to get the base and height from the user -->
+
+      .<!-- form to get the base and height from the user -->
     <form action="./results.php" method="post" target="results">
       <label for=lblRadius">Radius (cm):</label>
       <input type="text" id="radius" placeholder="Enter the radius (cm)" name="radius"><br><br>
