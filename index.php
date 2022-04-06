@@ -15,13 +15,13 @@
     <!-- Link to CSS file -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Title -->
-    <title>Area and Circumfrence of a circle in PHP</title>
+    <title>Area and Circumference of a circle in PHP</title>
   </head>
   <body>
 		<!-- php echo to print the html to the page -->
     <?php 
-			echo "<h1>Area and Circumfrence of a circle in PHP</h1>";
-			echo "<h3>This program will calculate Area and Circumfrence of a circle</h3>";
+			echo "<h1>Area and Circumference of a circle in PHP</h1>";
+			echo "<h3>This program will calculate Area and Circumference of a circle</h3>";
 		?>
     <img src= <?php echo "./images/math2.jpg" ?>
 
@@ -41,7 +41,7 @@
 			<!-- iframe for the results to show on the web page. -->
 			<iframe id="results" name="results">			
 				Area of the circle is" + $area + cm<sup>2</sup>
-        Circumfrence of the circle is" + $circumfrence + cm
+        Circumference of the circle is" + $circumfrence + cm
 	    </iframe>
 	</body>
 </html>
