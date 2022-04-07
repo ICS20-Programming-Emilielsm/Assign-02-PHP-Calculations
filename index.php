@@ -30,7 +30,7 @@
       <label for=lblRadius">Radius (cm):</label>
       <input type="text" id="radius" placeholder="Enter the radius (cm)" name="radius"><br><br>
       <input type="submit" value="Calculate Area">
-      <input type="submit" value="Calculate Circumfrence">
+      <input type="submit" value="Calculate Circumference">
 		</form>
 
     <?php ?>
